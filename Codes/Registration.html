@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <title>Registration</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="Registration" align="center">Registration</h1>
+    </header>
+
+    <hr>
+
+    <div class="hero">
+        <button><a href="Home.html"><b>Home</b></a></button>
+    </div>
+
+    <section class="form-section">
+        <p class="Register" align="center">Fill in the following to Register.</p>
+
+        <form id="Registration" align="center">
+            
+            <label>
+                Name
+                <input type="text" id="name" name="name" placeholder="Rich Richy" required>
+            </label>
+            <br>
+
+            <label>
+                Username
+                <input type="text" id="username" name="username" placeholder="Rich Richy Slayer" required>
+            </label>
+            <br>
+
+            <label>
+                Date of Birth
+                <input type="date" id="dob" name="dob" required>
+            </label>
+            <br>
+
+            <label>
+                Email
+                <input type="email" id="email" name="email" placeholder="intelligentuser@gmail.com" maxlength="100" required>
+            </label>
+            <br>
+
+            <label>
+                Password
+                <input type="password" id="password" name="password" placeholder="Hidden" maxlength="12" required>
+            </label>
+            <br>
+
+            <button type="button" onclick="registerUser()">Register</button>
+
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

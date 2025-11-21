@@ -1,0 +1,45 @@
+<!--
+Name: Johnathan Brown
+Date: 11/12/2025
+ID: 2408222
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart - Bored Games</title>
+    <link rel="stylesheet" href="/style.css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <img src="/Assets/Logo.png" alt="Bored Games Logo">
+        </div>
+        <h1>Your Cart</h1>
+        <nav class="nav-buttons">
+            <button><a href="Home.html"><b>Home</b></a></button>
+            <button><a href="Products.html"><b>Products</b></a></button>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="cart-items">
+            <!-- JS will populate cart items here -->
+        </section>
+
+        <section class="cart-summary">
+            <h2>Total: $<span id="cart-total">0.00</span></h2>
+            <div class="cart-actions">
+                <button id="checkout-btn" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+                <button id="clear-cart" onclick="cart=[]; saveCart(); displayCart();">Clear All</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

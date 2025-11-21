@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="Log" align="center">Log in</h1>
+    </header>
+
+    <hr>
+
+    <div class="hero">
+        <button><a href="Home.html"><b>Home</b></a></button>
+    </div>
+
+    <section class="form-section">
+        <form id="Login-Page" align="center">
+            
+            <label>
+                Username
+                <input type="text" id="Username" name="Username" placeholder="Rich Richy" required>
+            </label>
+            <br>
+
+            <label>
+                Password
+                <input type="password" id="Password" name="Password" placeholder="Hidden" 
+                       maxlength="12" minlength="8" required>
+            </label>
+            <br>
+
+            <button type="button" onclick="loginUser()">Log in</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
